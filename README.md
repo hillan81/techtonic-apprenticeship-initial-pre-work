@@ -5,3 +5,8 @@
 ### Introduction to Basic HTML and HTML5
 **Say Hello to HTML Elements**
 -Your answer goes here if you struggled with this lesson
+
+
+### Basic CSS
+**Margin vs Padding**
+-At first I struggled to fully comprehend and visualize the difference between margin and padding due to the fact that they have similar functions. After looking up articles and watching youtube videos on the subject matter, I was able to better understand the difference between margins and padding, and their improtance when it comes to making better design decisions for your website.
