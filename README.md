@@ -14,3 +14,11 @@
 ### Responsive Web Design Principles
 **Make Typography Responsive**
 -At first it was hard for me to understand the concept of using viewport units to size text due to the fact that I could not visualize what was going on. After completing the exercise, I decided to look up a video to further explain this concept and I was able to better understand it once I was able to see it being applied in action. 
+
+### Basic JavaScript
+**Switch Statements**
+-It took me a little while to understand when to use switch statements in place of if else statements. After further studying the concepts I was able to see that deciding whether to use if-then-else statements or a switch statement is based on readability and the expression that the statement is testing. I now understand that it all comes down to whichever design is clearer and more maintainable as per the demand of your code.
+
+### Basic JavaScript
+**Generate Random Fractions and Whole Numbers**
+I understood the concept of the lessons and the general structure of the code, I just needed to play around with a few examples before I fully felt confortable with the Math.floor and Math.random() functions. 
