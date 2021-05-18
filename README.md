@@ -22,3 +22,11 @@
 ### Basic JavaScript
 **Generate Random Fractions and Whole Numbers**
 I understood the concept of the lessons and the general structure of the code, I just needed to play around with a few examples before I fully felt confortable with the Math.floor and Math.random() functions. 
+
+### ES6
+**Use the spread operator to evaluate arrays in place**
+This section challenged me a bit as it was hard to see the purpose of using the spread operator at first. After looking up example instances online where the operator was used it became more clear to me how the spread operator can allow an array or an string to be expanded. It was all a matter of seeing more code examples using the operator.
+
+### ES6
+**Use class Syntax to Define a Constructor Function**
+It took a while to fully comprehend this section and I think it was mainly do to the wording. I had a hard time understanding exactly what a constructor method was, but once I looked up more examples and watched videos on YouTube I was better able to comprehend the lesson and complete the challenge. I will spend more time practicing the concept of constructor methods, getters, and setters. 
