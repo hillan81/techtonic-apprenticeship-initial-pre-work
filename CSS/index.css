@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Playfair+Display&display=swap');
+
+/* Make sure that padding and border are included in the width and height of all elements */
+* {
+    box-sizing: border-box;
+}
+/* Set all margin and padding properties to 0 */
+html, body {
+   margin: 0;
+   padding: 0;
+  }
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin:auto; 
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ header{
+     width: 100%;
+     margin-top: -32px;
+     background-color: white;
+ } 
+h1{
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+header p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 25%;
+    
+}
+
+button{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    font-size: 25px;
+    background-color: orange; 
+}
+button a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Overpass', sans-serif;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+main{
+    display:flex;
+    margin: 50px 50px;
+    column-gap: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+   
+}
+h2{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5em;
+}
+
+.column{
+    flex: 50%;
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2em;
+    background-color: white;
+}
+footer a{
+    margin:20px 20px;
+}
+
+/* footer icon customization */
+
+footer .fa {
+    font-size: 2em;
+    width: 60px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
